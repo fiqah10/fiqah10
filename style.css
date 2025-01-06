@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    
+.personal-text-container {
+    width: 300px; 
+    padding: 10px;
+    text-align: center;
+    background-color: #ADD8E6; 
+    border: 1px solid black;
+}
+	
+.header{
+	 background:#add8e6;
+	 color:white;
+	 font-size:20 px;
+	 padding:20px;
+	 text-align:center;
+}
+
+header h1{
+	margin:0;
+	font-size:2.5em;
+	color#333;
+}	
+
+header p{
+	margin: 5px 0 0;
+	font-size:1.2em;
+	color:#555;
+}
+
+.section-title {
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+/* Content Styles */
+.content {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Video */
+video {
+    max-width: 100%; /* Ensures video is responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px; /* Adjust padding for smaller screens */
+
+header {
+    background: rgba(0, 123, 255, 0.8); /* Semi-transparent blue header */
+    color:#fff;
+    padding: 10px 20px;
+}
+
+nav table {
+    width: 100%; /* Full width for navigation */
+}
+
+nav td {
+    padding: 10px; /* Space between links */
+}
+
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th, td {
+            width: 50%; 
+        }
+
+        th {
+            text-align: center;
+        }
+		
+		
+/* Centering Images */
+#about img, #education img, {
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+/* Additional Styles for Sections */
+#about {
+* {box-sizing:border-box}
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+	
+}
+
+#home {
+   background-color:#f9f9f9;
+}
+
+
+#about {
+   background-color:#f9f9f9;
+}
+
+#education {
+    border-image-source:url('border.png'); /* Add your border image here */
+    border-image-slice:30%; /* Adjust as needed */
+}
+
+#hobbies {
+    border-image-source:url('border.png'); /* Add your border image here */
+    border-image-slice:30%; /* Adjust as needed */
+}
+
+#contact{
+   background-color:#e9f7ef;
+   border:1 
+   
+}
+
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 10px; /* Space between form elements */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ddd; /* Light border */
+}
+
+/* Other styles remain unchanged... */
